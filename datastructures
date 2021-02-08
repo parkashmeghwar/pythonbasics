@@ -1,0 +1,19 @@
+#Tuples: ordered collection of elements, enclosed in (), tuples are immutable
+tuple1 = (1, 'Pershotam', 'Parbhu')
+
+#repeating tuple elements
+print(tuple1*3)
+
+#repeating and concatinating
+tuple2 = (2, 'Kumar', 'Khodo')
+tuple1 + tuple2 
+print(tuple1 + tuple2)
+
+#tuple functions 
+tuple3 = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+#print maximum value
+print(max(tuple3))
+
+#print minumum value
+print(min(tuple3))
