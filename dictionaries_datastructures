@@ -1,0 +1,19 @@
+#Dictionaries:unordered collection of key-value pairs enclosed with {}. Dictionaries are Mutable
+
+#creating simple dictionary
+students = { 1:'Parkash', 2:'Pershotam', 3:"Rana"}
+print(students)
+
+#printing only keys of dictionary
+print(students.keys())
+
+#printing only values
+print(students.values())
+
+#adding new element in dictionaries
+students['sooraj']=4
+print(students)
+
+#modifying existing values
+students['sooraj']=5
+print(students)
