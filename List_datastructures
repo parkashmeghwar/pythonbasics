@@ -1,0 +1,25 @@
+#Lists: It is an ordered collection of elements enclosed within [], lists are mutable
+
+list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+#printing number location
+print(list1[2])
+
+#printing number by sequence
+print(list1[0:9])
+
+#appending new element
+list1.append(10)
+print(list1)
+
+#popping element from list 
+list1.pop()
+print(list1)
+
+#reversing element of list
+list1.reverse()
+print(list1)
+
+#sorting list elements 
+list1.sort()
+print(list1)
